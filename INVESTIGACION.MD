@@ -1,59 +1,114 @@
 Taller de Investigación: Fundamentos de HTML
-Nombre del Estudiante: [Escribe tu nombre completo aquí]
+Nombre del Estudiante: [Jhank Dair Londoño Cifuentes]
 
 1. Anatomía de una Etiqueta HTML
 Etiqueta de Apertura y Cierre
 ¿Qué es una etiqueta de apertura?
 
-Escribe tu respuesta aquí.
+Una etiqueta de apertura en HTML es la forma en que se inicia un elemento dentro del código de una página web. ejemplo  <h1> es una etiqueta de apertura que nos indica el inicio de un titulo.
 
 ¿Qué es una etiqueta de cierre?
 
-Escribe tu respuesta aquí.
+Una etiqueta de cierre en HTML indica el final de un elemento.</h1> se acompaña de una barra inclinada
+ejemplo <h1>Bienvenido a mi sitio</h1>
 
 Atributos
-¿Qué es un atributo y para qué sirve? Da un ejemplo.
+Un atributo en HTML es una característica adicional que se añade a una etiqueta para modificar su comportamiento o apariencia. Es como darle instrucciones extra al navegador sobre cómo debe funcionar o mostrarse ese elemento.
 
-Escribe tu respuesta aquí, incluyendo un ejemplo de código como <a href="https://google.com">Ir a Google</a> y explicando qué hace el atributo href.
+<a href="https://www.cesde.edu.co/educaciondigital/"
+target="_blank"> Educación digital</a>
+El href se utiliza para insertar un enlace de navegación o hipervinculos a los cuales serán direccionados los usuarios cuando dan click
+
 
 2. El Poder de la Semántica
 HTML Semántico
-¿Qué es el HTML Semántico y por qué es tan importante?
 
-Escribe tu respuesta aquí, mencionando aspectos como accesibilidad (lectores de pantalla) y SEO (cómo los buscadores entienden tu página).
+El HTML semántico es el uso de etiquetas que describen claramente el propósito del contenido que envuelven. En lugar de usar contenedores genéricos como <div> o <span> para todo, el HTML semántico emplea etiquetas como <header>, <nav>, <article>, <section>, y <footer> para estructurar la página de forma lógica y significativa.
+
+Al usar HTML semantico le damos estructura clara al contenido, haciendo que los navegadores interpreten las instrucciones dadas en el código y su contenido, esto a nivel de SEO permite destacar elementos web que permiten posicionar las busquedas de los usuarios.
+
+
 
 Diccionario de Etiquetas Semánticas
 1: <header>:
 
-Explica su propósito aquí.
+indica el Encabezado dentro de una página web
 
 2: <nav>:
 
-Explica su propósito aquí.
+Indica que hay un menú de navegación
 
 3: <main>:
 
-Explica su propósito aquí.
+Indica contenido principal dentro de una pagina web
 
 4: <section>:
 
-Explica su propósito aquí.
+  Etiqueta que agrupa elementos pertenecientes a una misma categoria
+
 
 5: <article>:
 
-Explica su propósito aquí.
+Etiqueta que representa un contenido independiente  
+
 
 6: <aside>:
 
-Explica su propósito aquí.
+Etiqueta de contenido lateral izquierdo o derecha (contiene otras etiquetas )
 
 7: <footer>:
 
-Explica su propósito aquí.
-.
-.
-.
-.
-.
+ Etiqueta de pie de página del proyecto. Normalmente incluye datos de contacto, redes sociales etc - solo debe existir un footer por vista .html
 
-20: 
+8: <h1> 
+
+ Define un titulo
+ 
+9: <h2> a <h6>: 
+
+Definen subtitulos 
+
+10:<p>: 
+
+Define un párrafo de texto.
+
+11: <ul>: 
+
+Define una lista sin orden.
+
+12:<ol>:
+
+ Define una lista ordenada.
+
+13:<li>: 
+
+Define un elemento dentro de una lista.
+
+14:<strong>:
+
+ Define texto importante o resaltado.
+
+15:<em>:
+
+ Define texto con énfasis.
+
+16:<pre>:
+
+ Define un bloque de texto preformateado.
+
+17:<abbr>:
+
+ Define una abreviatura.
+
+18:<cite>:
+
+ Define una cita textual.
+
+19:<blockquote>: 
+
+Define una cita larga.
+
+20:<img>: 
+
+Define una imagen.
+
